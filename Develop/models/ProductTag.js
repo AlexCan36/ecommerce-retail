@@ -13,7 +13,10 @@ ProductTag.init(
       autoIncrement: true
     },
     product_id: {
-      ype: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
     }
   },
   {
